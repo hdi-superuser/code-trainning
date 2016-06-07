@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1463249301 source:e:\cloud\code-trainning\data structure\lis\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+

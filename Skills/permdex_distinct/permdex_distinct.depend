@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463246557 source:e:\cloud\code-trainning\other\permdex_distinct\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

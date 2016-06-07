@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463362887 source:e:\cloud\code-trainning\skills\brackets\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

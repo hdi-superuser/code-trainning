@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463319325 source:e:\cloud\code-trainning\skills\virus\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

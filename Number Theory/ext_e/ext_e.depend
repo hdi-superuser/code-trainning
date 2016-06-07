@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463109923 source:e:\cloud\code-trainning\number theory\ext_e\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+

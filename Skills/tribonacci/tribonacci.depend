@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463285931 source:e:\cloud\code-trainning\skills\tribonacci\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

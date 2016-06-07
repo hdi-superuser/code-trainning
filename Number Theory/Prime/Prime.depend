@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1463211322 source:e:\cloud\code-trainning\number theory\prime\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<bitset>
+	<vector>
+	<cmath>
+

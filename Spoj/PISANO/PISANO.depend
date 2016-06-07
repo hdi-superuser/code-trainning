@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1462644939 source:e:\cloud\code-trainning\spoj\pisano\pisano.cpp
+	<cstdio>
+	<iostream>
+

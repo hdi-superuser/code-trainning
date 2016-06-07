@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463588307 source:e:\cloud\code-trainning\game theory\lgame\lgame.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<vector>
+	<cstring>
+

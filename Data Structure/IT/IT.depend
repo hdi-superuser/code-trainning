@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463243477 source:e:\cloud\code-trainning\segment query\it\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+

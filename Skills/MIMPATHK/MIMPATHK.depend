@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463301624 source:e:\cloud\code-trainning\skills\mimpathk\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

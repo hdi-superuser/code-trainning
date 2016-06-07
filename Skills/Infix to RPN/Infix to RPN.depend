@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1464965299 source:/root/Documents/master/trainning/Skills/Infix to RPN/main.cpp
+	<iostream>
+	<cstdio>
+	<stack>
+	<cstring>
+

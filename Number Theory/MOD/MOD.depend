@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463108152 source:e:\cloud\code-trainning\number theory\mod\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+

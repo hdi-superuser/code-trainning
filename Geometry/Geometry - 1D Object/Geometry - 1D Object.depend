@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463026805 source:e:\cloud\note\geometry - 1d object\main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+	<algorithm>
+	<vector>
+

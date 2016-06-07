@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1464962620 source:/root/Documents/master/trainning/Skills/RPN/main.cpp
+	<cstdio>
+	<iostream>
+	<stack>
+	<cstring>
+

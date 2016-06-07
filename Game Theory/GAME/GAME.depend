@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463579051 source:e:\cloud\code-trainning\game theory\game\game.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+

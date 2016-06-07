@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1463413733 source:e:\cloud\code-trainning\skills\basic deque\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<stack>
+

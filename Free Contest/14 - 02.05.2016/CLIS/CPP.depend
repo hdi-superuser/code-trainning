@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1462193192 source:e:\cloud\code-trainning\free contest\14 - 02.05.2016\clis\cpp\main.cpp
+	<iostream>
+	<algorithm>
+
+1462193486 source:e:\cloud\code-trainning\free contest\14 - 02.05.2016\clis\cpp\clis.cpp
+	<iostream>
+	<algorithm>
+

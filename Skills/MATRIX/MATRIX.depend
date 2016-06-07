@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463282616 source:e:\cloud\code-trainning\skills\matrix\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+

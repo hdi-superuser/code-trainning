@@ -1,0 +1,2 @@
+Index of aaba = 1
+Index of abca = 3

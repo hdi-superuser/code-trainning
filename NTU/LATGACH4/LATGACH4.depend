@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1464358762 source:/root/Documents/master/trainning/NTU/LATGACH4/main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+
