@@ -63,6 +63,5 @@ int main() {
     a = a^(N-1);
     c = a*f;
     cout << c.val[1][1];
-
     return 0;
 }

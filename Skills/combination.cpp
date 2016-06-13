@@ -20,19 +20,16 @@ void _sieve(int upperbound) {
         }
 }
 
-vi primesFactor(int x) {
+vi primesFactor(ll x) {
     vi factor;
     factor.assign(30000, 0);
-    int MAX;
-    for (int i = 0; i <= primes.size(); i++)
-        while (x % primes[i] == 0) {
-            MAX = primes[i];
-            x /= primes[i];
-            factor[primes[i]]++;
-            if (x == 0) return factor;
-        }
-    if (N != 1) factor[N]++, MAX = N;
-    factor[0] = MAX;
+    ll PF_idx = 0, PF = primes[PF_idx];
+    while (PF*PF <= x) {
+        while (x % PF == 0 && x) N /= PF, factor[PF]++;
+        PF = primes[++PF_idx];
+    }
+    if (N != 1) factor[N]++, PF = N;
+    factor[0] = PF;
     return factor;
 }
 
@@ -40,12 +37,12 @@ int main() {
     freopen("in.txt", "r", stdin);
     scanf("%d %d", &N, &M);
     _sieve(30000);
-    //vi fac_N = primesFactor(N);
-    //vi fac_M = primesFactor(M);
-    vi fac_NM = primesFactor(4);
-    return 0;
+    vi fac_N = primesFactor(N);
+    vi fac_M = primesFactor(M);
+    vi fac_NM = primesFactor(N - M);
+
     int cnt = 0;
-    //for (int i = 1; i <= fac_N[0]; i++)
-    //    if (fac_N[i] - fac_M[i] - fac_NM[i] > 0) cnt++;
+    for (int i = 1; i <= fac_N[0]; i++)
+        if (fac_N[i] - fac_M[i] - fac_NM[i] > 0) cnt++;
     printf("%d\n", cnt);
 }

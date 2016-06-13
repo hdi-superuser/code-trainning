@@ -48,6 +48,6 @@ int main() {
 			long long temp = abs(S - 2*(d1[j] + d2[i]));
 			if (temp < minAnswer) { minAnswer = temp, ways = D1[j]*D2[i], cout << "optimize: " << minAnswer << " " << j << " " << i << endl; continue; }
 			if (temp == minAnswer) ways += D1[j]*D2[i], cout << "+: " << minAnswer << " " << j << " " << i << endl;
-		}		
+		}
 	cout << minAnswer << " " << ways/2 << endl;
 }
