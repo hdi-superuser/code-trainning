@@ -100,3 +100,4 @@ int main() {
     fprintf(stderr, "Total Execution Time = %lf seconds\n", cl / CLOCKS_PER_SEC);
     return 0;
 }
+

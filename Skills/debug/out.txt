@@ -1,0 +1,5 @@
+4
+insert 0
+insert 0
+insert -1000000000
+getMin -1000000000
