@@ -1,0 +1,7 @@
+Tim T sao cho dist tu 1 -> T la lon nhat
+=> ket qua = 2*(tong duong di tren cay) - dist(1, T)
+
+Truy vet:
+    Xoa bo cac cach tren duong di tu 1->T, ta duoc k cay con
+    Tim k duong di euler cho k cay con -> gop k duong nay lai
+    => Ket qua
