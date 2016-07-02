@@ -1,0 +1,13 @@
+thu n! hoan vi cot {
+        sort ma tran a[M][N] theo chieu tang dan
+        cap nhat a vao bien best
+    }
+
+hoan vi {
+        chon x, y ngau nhien tu 1 -> n
+        doi cho 2 cot x, y
+        -> sort a tang dan (buble)
+        ghi nhan a
+    }
+
+C2: hash: a[1]'\n'a[2]'\n'a[3]'\n'

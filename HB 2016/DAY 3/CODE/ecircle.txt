@@ -1,0 +1,14 @@
+ham distance(point i, segment AB) {
+        vU = vB - vA
+        nhan vo huong {
+                t1 = i*u
+                t2 = a*u
+                t3 = b*u
+                if (t1 <= t2 <= t3 || t1 >= t2 >= t3) buoc tiep theo
+                else return +oo
+            }
+        // calc distance
+        d = |n*a - n*i|
+        return d;
+    }
+LEO DOI
