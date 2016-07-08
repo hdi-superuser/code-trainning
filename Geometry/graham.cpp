@@ -74,6 +74,8 @@ double Area(vector <point> p) {
 
 int main() {
     freopen("in.txt", "r", stdin);
+    freopen("out.txt", "w", stdin);
+
     scanf("%d\n", &n);
     for (int i = 1; i <= n; i++) {
         point temp;
