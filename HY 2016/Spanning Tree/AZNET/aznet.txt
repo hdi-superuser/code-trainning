@@ -1,0 +1,13 @@
+Đầu tiên, tôi hợp nhất các cạnh mang số hiệu 1, để tìm số cạnh mang số hiệu 1 tối đa trong cây khung, gọi là d1.
+Tiếp đó, tôi lại hợp nhất các cạnh mang số hiệu 2, để tìm ra số cạnh tối đa mang số hiệu 2 trong cây khung, gọi là d2
+->từ đó tôi có thể tính được giá trị nhỏ nhất khi sử dụng x cạnh loại 1 và (n-x-1) cạnh loại 2. ( x sẽ nằm trong khoảng từ max(0,n-d2-1)-> d1 )
+Sau khi tìm được x rồi, công việc còn lại là khá đơn giản:
+(1) Hợp nhất d1 các cạnh loại 1, tôi hợp nhất thêm n-d1-1 cạnh loại 2 vào cây khung->tôi xóa bỏ cây khung này và lưu lại vị trí của n-d1-1 bằng một mảng true/false.
+(2)Tôi tạo một cây khung mới gồm n-d1-1 cạnh loại 2 , thêm tiếp một số cạnh loại 2 cho đủ n-x-1 cạnh loại 2, đồng thời đưa cả n-x-1 cạnh này vào danh sách kết quả.
+(3)Sau khi tìm được n-x-1 cạnh loại 2, tôi lại tìm x cạnh loại 1 cần tìm, đưa danh sách x cạnh loại 1 này vào danh sách kết quả.
+Và sau đó là in ra danh sách kết quả.
+ps: Nếu bạn thắc mắc tại sao ở bước 1 không hợp nhất luôn x cạnh loại 1 mà lại là d1, đơn giản là vì mới biết x là số cần tìm chứ đã biết nó là x cạnh nào đâu mà đòi hợp nhất =)))))))
+Chú ý: sẽ có các bước bị lặp lại, nên các bạn có thể viết một cái function hoặc procedure để khi cần là gọi đến, tránh việc bài
+quá dài, không tiện cho việc debug
+
+
