@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1468038124 source:/home/whoami/Desktop/HY/Data structure/CT/main.cpp
+	<iostream>
+	<stdio.h>
+	<algorithm>
+	<set>
+	<stdlib.h>
+
