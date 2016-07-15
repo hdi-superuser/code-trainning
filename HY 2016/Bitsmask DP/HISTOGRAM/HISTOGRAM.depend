@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1468542910 source:/home/whoami/Desktop/HY/Bitsmask DP/HISTOGRAM/histogram.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+

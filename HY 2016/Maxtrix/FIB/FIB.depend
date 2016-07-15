@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1468570293 source:/home/whoami/Desktop/HY/Maxtrix/FIB/fib.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+
