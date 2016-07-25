@@ -14,8 +14,8 @@ using namespace std;
 #define mp make_pair
 #define sz(x) int(x.size())
 #define ALL(x) (x).begin(), (x).end()
-#define remain(x) if (x > MOD) x -= MOD
 #define popcnt(x) __builtin_popcount(x)
+#define remain(x) if (x > MOD) x -= MOD
 #define rep(i, j, k) for (register int i = j; i <= k; i++)
 #define dow(i, j, k) for (register int i = j; i >= k; i--)
 #define debug(x) cerr << __LINE__ << ": " << #x << " = " << (x) << endl
@@ -25,13 +25,12 @@ typedef vector<int> vi;
 typedef vector<ii> vii;
 
 template<typename T> void in(T& x) { cin >> x; }
-template<typename T> void outln(T& x) { cout << x << endl; }
 template<typename T> void out(T& x) { cout << x; }
-template<typename T, typename X>
-    void out(T& x, X& y) { cout << x; cout << y; }
+template<typename T> void outln(T& x) { cout << x << endl; }
+template<typename T, typename X> void out(T& x, X& y) { cout << x << y; }
 
-struct _ { _() { ios_base::sync_with_stdio(0); } } _;
-/*----------------------- header ------------------------*/
+struct _ { _() { ios_base::sync_with_stdio(0); cin.tie(NULL); } } _;
+/*----------------------------- header -------------------------------*/
 
 main(void) {
     #ifndef ONLINE_JUDGE
