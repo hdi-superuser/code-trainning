@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1471619036 source:d:\trainning\spoj\test\main.cpp
+	<iostream>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<string>
+	<cmath>
+	<ctime>
+	<utility>
+	<map>
+	<set>
+	<queue>
+	<stack>
+	<sstream>
+
